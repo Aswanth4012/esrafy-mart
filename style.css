@@ -126,10 +126,6 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-.product img{
-    width: 280px;
-    height: 390px;
-}
 .product-content{
     text-align: center;
 }
@@ -278,9 +274,8 @@ footer .footer-content{
     }
     .products{
         flex-wrap: wrap;
-    }
-    .product img{
-        width: 200px;
+        align-items: center;
+        justify-content: center;
     }
     .product-content p{
         font-size: 15px;
